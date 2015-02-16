@@ -1,6 +1,6 @@
 <?php
 	require_once ('utils.php');
-	require_once ('../model/config.php');
+	require_once (dirname (__FILE__).'/../model/config.php');
 	/* VERSION 1.1 */
 
 	class DBController {
