@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /intern/phplib/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{QUERY_STRING} ^(.*)$
+RewriteRule ^([0-9a-zA-Z/\.]+)$ index.php?p=$1&%1 [L]

@@ -1,0 +1,8 @@
+<?php
+global $DB_HOST, $DB_USER, $DB_PASSWORD, $DB_DB, $DB_PREFIX;
+
+$DB_USER = 'DBUSER';
+$DB_PASSWORD = 'VERY_SECURE_PASSWORD';
+$DB_DB = 'DATABASE';
+$DB_HOST = 'localhost';
+$DB_PREFIX = 'phplib_';
